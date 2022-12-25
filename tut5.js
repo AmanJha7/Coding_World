@@ -1,0 +1,11 @@
+console.log("Starting tut 5");
+let myvar=67;
+console.log(myvar,(typeof myvar));
+myvar=String(37);
+console.log(myvar,(typeof myvar));
+myvar=Number(myvar);
+console.log(myvar,(typeof myvar));
+let arra= String([1,2,3,4,5,6,7,8]);
+console.log(arra.length,(typeof arra));
+let i=new Date();
+console.log(i.toString());
